@@ -1,0 +1,131 @@
+{
+  "header_top": {
+    "paragraph": "Professional Dentists – Healthy Teeth, Beautiful Smile",
+    "callBack": "Request a CallBack"
+  },
+  "navbar": {
+    "home": "Home",
+    "elements": "Prices",
+    "shop": "Articles",
+    "contacts": "Contacts"
+  },
+  "service_section": {
+    "description": "our services",
+    "heading": "What We Can Offer You",
+    "paragraph": "In our clinic, most medical services are provided by our general practitioners, with specialized care available for more complex cases to ensure the best treatment."
+  },
+  "service_section_cards": {
+    "description1": "qualified doctors",
+    "description2": "modern equipment",
+    "description3": "quality treatment"
+  },
+  "about_section": {
+    "heading": "About Us",
+    "subtitle": "Advanced Equipment and Best Dentists",
+    "description": "For us, there are no minor aspects, because a quality result always depends on trifles:",
+    "services": {
+      "service1": "Advanced 3D dental scanning",
+      "service2": "Digital X-ray diagnostics",
+      "service3": "Modern dental treatment equipment",
+      "service4": "Professional dental care tools"
+    },
+    "btn": "Read More"
+  },
+  "checkUP_section": {
+    "description": "Need a Doctor for Check-up? Call for an Emergency Service!"
+  },
+  "doctors_section": {
+    "description": "quality stuff",
+    "heading": "Team of Professionals",
+    "paragraph": "Our team of experienced dentists is dedicated to providing you with high-quality and reliable dental care. Let us help you achieve a healthy and beautiful smile!",
+    "btn": "View More"
+  },
+  "doctor_single_page": {
+    "subHeading": "Doctor",
+    "home": "Home",
+    "speciality": "Speciality:",
+    "work": "Length of Work:",
+    "phone": "Phone:",
+    "bio": "Biography",
+    "form": {
+      "form_heading": "Contact Me",
+      "name_placeholder": "Your Name*",
+      "age_placeholder": "Your Age*",
+      "message": "Message...",
+      "btn": "Send A Message"
+    }
+  },
+  "doctors_cards": {
+    "fullName": "quality stuff",
+    "description": "Team of Professionals",
+    "working": "View More"
+  },
+  "whyChooseUs": {
+    "shortHeading": "See the Difference",
+    "heading": "Why Choose Us?"
+  },
+  "price_page": {
+    "subHeading": "Prices",
+    "home": "Home",
+    "prices": "Prices",
+    "service_types": "Our services"
+
+  },
+  "articles_page": {
+    "subHeading": "Articles",
+    "home": "Home",
+    "articles": "Articles"
+  },
+  "article_section": {
+    "subHeading": "useful tips",
+    "heading": "Recommended Articles",
+    "btn": "View More"
+  },
+  "contact_page": {
+    "subHeading": "Contacts",
+    "home": "Home",
+    "contacts": "Contacts",
+    "left": {
+      "subHeading": "quick support",
+      "home": "Contact Us",
+      "paragraph": "Contact us to use our dental services, where we provide safe and high-quality care.",
+      "call": "call us 24/7",
+      "telegram": "Telegram Group",
+      "location": "our location",
+      "loc_address": "25 Alisher Navoi Street,",
+      "loc_address2": "Jizzakh City, Uzbekistan"
+    },
+    "form": {
+      "form_heading": "Write us",
+      "heading": "Get in Touch",
+      "name_placeholder": "Your Name*",
+      "age_placeholder": "Your Age*",
+      "message": "Message...",
+      "btn": "Send A Message"
+    }
+  },
+  "footer": {
+    "subHeading1": "Our Contacts",
+    "location": "Jizzakh city, Alisher Navoi",
+    "location2": "Street 15 house",
+    "call": "Contact us:",
+    "working_hours": {
+      "mon_fri": "Mon - Fri: 8:00 AM - 9:00 PM",
+      "sat_sun": "Sat - Sun: 9:00 AM - 6:00 PM"
+    },
+    "subHeading2": "Open Hours",
+    "working_days": {
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "weekend": "Saturday",
+      "weekHours": "9:00 AM - 8:00 PM",
+      "weekendHours": "10:00 AM - 6:00 PM"
+    },
+    "termsUse": "Terms of use | Privacy Environmental Policy",
+    "copyright": " © 2025 Umid-dentist by ",
+    "policy": "All Rights Reserved"
+  }
+}

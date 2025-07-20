@@ -1,0 +1,121 @@
+{
+  "header_top": {
+    "paragraph": "Professional Stomatologlar – Sog‘lom Tishlar, Chiroyli Tabassum",
+    "callBack": "Biz bilan bog‘lanish"
+  },
+  "navbar": {
+    "home": "Asosiy",
+    "elements": "Narxlar",
+    "shop": "Maqolalar",
+    "contacts": "Aloqa"
+  },
+  "service_section": {
+    "description": "bizning xizmatlar",
+    "heading": "Eng yaxshi xizmatlar sizga",
+    "paragraph": "Klinikamizda ko‘pchilik tibbiy xizmatlar shifokorlarimiz tomonidan amalga oshiriladi, murakkab holatlar esa alohida yondashuvni talab qiladi."
+  },
+  "about_section": {
+    "heading": "Biz haqimizda",
+    "subtitle": "Zamonaviy uskunalar va malakali tish shifokorlari",
+    "description": "Biz uchun tish parvarishida mukammal natijaga erishish uchun aniqlik, tajriba va bemorlarimizga  e'tibor zarur deb bilamiz:",
+    "services": {
+      "service1": "Zamonaviy 3D tish skanerlash",
+      "service2": "Raqamli rentgen diagnostikasi",
+      "service3": "Zamonaviy tish davolash uskunalari",
+      "service4": "Professional tish parvarish jihozlari"
+    },
+    "btn": "Batafsil"
+  },
+  "checkUP_section": {
+    "description": "Tish shifokori kerakmi? Biz bilan bo'g'laning!"
+  },
+  "doctors_section": {
+    "description": "sifatli Ish",
+    "heading": "Mutaxassislar Jamoasi",
+    "paragraph": "Malakali stomatologlar jamoamiz sizga zamonaviy va ishonchli stomatologik xizmatlarni taqdim etishga tayyor. Sog‘lom tabassum – biz bilan!",
+    "btn": "Batafsil"
+  },
+  "whyChooseUs": {
+    "shortHeading": "Farqni ko'ring",
+    "heading": "Nima uchun biz?"
+  },
+
+  "article_section": {
+    "subHeading": "foydali maslahatlar",
+    "heading": "Tavsiya etilgan Maqolalar",
+    "btn": "Batafsil"
+  },
+  "doctor_single_page": {
+    "subHeading": "Doktor",
+    "home": "Bosh sahifa",
+    "speciality": "Mutaxassisligi:",
+    "work": "Ish tajribasi:",
+    "phone": "Telefon:",
+    "bio": "Biografiya",
+    "form": {
+      "form_heading": "Menga bog‘laning",
+      "name_placeholder": "Ismingiz*",
+      "age_placeholder": "Yoshingiz*",
+      "message": "Xabar...",
+      "btn": "Xabar yuborish"
+    }
+  },
+  "price_page": {
+    "subHeading": "Narxlar",
+    "home": "Bosh Sahifa",
+    "prices": "Narxlar",
+    "service_types": "Bizning xizmatlar"
+  },
+  "articles_page": {
+    "subHeading": "Maqolalar",
+    "home": "Bosh Sahifa",
+    "articles": "Maqolalar"
+  },
+  "contact_page": {
+    "subHeading": "Kontaktlar",
+    "home": "Bosh sahifa",
+    "contacts": "Kontaktlar",
+    "left": {
+      "subHeading": "Tezkor yordam",
+      "home": "Biz bilan bog'laning",
+      "paragraph": "Xavfsiz va sifatli xizmat ko'rsatadigan tish davolash xizmatlarimizdan foydalanish uchun biz bilan bog'laning.",
+      "call": "24/7 qo'ng'iroq qiling",
+      "telegram": "Telegram guruh",
+      "location": "Bizning manzil",
+      "loc_address": "25 Alisher Navoiy ko‘chasi,",
+      "loc_address2": " Jizzax shahar, O'zbekiston"
+    },
+    "form": {
+      "form_heading": "Bizga yozing",
+      "heading": "Bog'lanish",
+      "name_placeholder": "Ismingiz*",
+      "age_placeholder": "Yoshingiz*",
+      "message": "Xabar...",
+      "btn": "Xabar yuborish"
+    }
+  },
+  "footer": {
+    "subHeading1": "Biz bilan bog'lanish",
+    "location": "Jizzax shahri Alisher Navoiy ",
+    "location2": " ko’chasi 15-uy",
+    "call": "Biz bilan bog‘laning:",
+    "working_hours": {
+      "mon_fri": "Dush - Juma: 9:00 - 20:00",
+      "sat_sun": "Shanba: 10:00 - 18:00"
+    },
+    "subHeading2": "Ish vaqti",
+    "working_days": {
+      "monday": "Dushanba",
+      "tuesday": "Seshanba",
+      "wednesday": "Chorshanba",
+      "thursday": "Payshanba",
+      "friday": "Juma",
+      "weekend": "Shanba",
+      "weekHours": "9:00 - 20:00",
+      "weekendHours": "10:00 - 18:00"
+    },
+    "termsUse": "Foydalanish shartlari | Maxfiylik | Atrof-muhit siyosati",
+    "copyright": " © 2025 Umid-dentist ",
+    "policy": "Barcha huquqlar himoyalangan"
+  }
+}
