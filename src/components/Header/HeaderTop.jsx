@@ -23,13 +23,13 @@ function HeaderTop({ selectedLang, setSelectedLang }) {
             <div className="phone_num">
               <Link to={"/"} className="flex items-center gap-2">
                 <ImPhone className="text-[20px] text-gray"/>
-                <h3 className="noto text-dark font-medium">+38 097 435 6743</h3>
+                <h3 className="noto text-dark font-medium text-[13px]">+38 097 435 6743</h3>
               </Link>
             </div>
             <div className="email">
               <Link to={"/"} className="flex items-center gap-2">
                 <IoIosMail className="text-[25px] text-gray" />
-                <h3 className="noto text-dark font-medium">Kidsshop@gmail.com</h3>
+                <h3 className="noto text-dark font-medium text-[13px]">Kidsshop@gmail.com</h3>
               </Link>
             </div>
             <ChangeLanguage

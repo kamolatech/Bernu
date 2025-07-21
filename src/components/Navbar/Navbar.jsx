@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 function Navbar() {
   return (
     <nav >
-          <ul className='flex items-center gap-[18px] noto text-dark font-normal'>
+          <ul className='flex items-center gap-[18px] noto text-dark font-normal text-[13px]'>
             <Link to={"/"}>О нас</Link>
             <Link to={"/"}>Оплата и доставка</Link>
             <Link to={"/"}>Отзывы</Link>
