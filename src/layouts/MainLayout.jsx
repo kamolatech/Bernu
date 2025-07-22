@@ -19,17 +19,11 @@ function MainLayout() {
     <div tabIndex={-1} className="min-h-screen flex flex-col bg-[#fff]">
       <ScrollToTop />
       <Header />
-
-      {/* <Suspense fallback={null}>
-        <NavbarBottom />
-      </Suspense> */}
-
       <main className="flex-grow">
         <Outlet />
       </main>
-
       <Suspense fallback={null}>
-        <Footer/>
+        <Footer />
       </Suspense>
     </div>
   );

@@ -1,6 +1,11 @@
+import SwipperBigCards from "../../components/SwipperBigCards/SwipperBigCards";
 
 function Home() {
-  return <div>Home</div>;
+  return (
+    <main>
+      <SwipperBigCards />
+    </main>
+  );
 }
 
 export default Home;
