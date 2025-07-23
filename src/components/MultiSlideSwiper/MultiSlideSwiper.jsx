@@ -47,10 +47,8 @@ const MultiSlideSwiper = () => {
     }
   ];
 
-  // Create infinite slides by duplicating slides
   const slides = [...originalSlides, ...originalSlides, ...originalSlides];
 
-  // Responsive slides per view
   useEffect(() => {
     const updateSlidesToShow = () => {
       if (window.innerWidth >= 1024) {
@@ -83,17 +81,14 @@ const MultiSlideSwiper = () => {
     }
   };
 
-  // Handle infinite scroll
   useEffect(() => {
     if (currentIndex >= originalSlides.length * 2) {
-      // Reset to middle section
       setTimeout(() => {
         setIsTransitioning(false);
         setCurrentIndex(originalSlides.length);
         setTimeout(() => setIsTransitioning(true), 50);
       }, 800);
     } else if (currentIndex < 0) {
-      // Reset to middle section from the other direction
       setTimeout(() => {
         setIsTransitioning(false);
         setCurrentIndex(originalSlides.length - 1);
@@ -102,14 +97,12 @@ const MultiSlideSwiper = () => {
     }
   }, [currentIndex, originalSlides.length]);
 
-  // Auto-play functionality (slower)
   useEffect(() => {
     if (!isAutoPlaying) return;
     
     const interval = setInterval(() => {
       nextSlide();
-    }, 6000); // Increased from 3000ms to 6000ms (6 seconds)
-
+    }, 6000); 
     return () => clearInterval(interval);
   }, [currentIndex, isAutoPlaying]);
 
@@ -120,7 +113,6 @@ const MultiSlideSwiper = () => {
 
   return (
     <div className="relative w-full max-w-6xl mx-auto my-8 px-4">
-      {/* Navigation Arrows */}
       <button
         onClick={prevSlide}
         className="absolute left-0 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white text-gray-600 hover:text-gray-800 p-2 rounded-full shadow-lg transition-all duration-300 hover:scale-110 z-10"
@@ -137,7 +129,6 @@ const MultiSlideSwiper = () => {
         <ChevronRight size={20} />
       </button>
 
-      {/* Slides Container */}
       <div
         className="overflow-hidden rounded-xl"
         onMouseEnter={handleMouseEnter}
@@ -180,7 +171,6 @@ const MultiSlideSwiper = () => {
         </div>
       </div>
 
-      {/* Dots Indicator */}
       <div className="flex justify-center mt-4 space-x-2">
         {Array.from({ length: maxIndex + 1 }, (_, index) => (
           <button
@@ -195,7 +185,6 @@ const MultiSlideSwiper = () => {
         ))}
       </div>
 
-      {/* Progress Bar */}
       <div className="w-full bg-gray-200 rounded-full h-1 mt-4">
         <div
           className="bg-gradient-to-r from-pink-400 to-purple-500 h-1 rounded-full transition-all duration-500"

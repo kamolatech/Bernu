@@ -1,11 +1,12 @@
-import MultiSlideSwiper from "../../components/MultiSlideSwiper/MultiSlideSwiper";
+import Categories from "../../components/Categories/Categories";
 import SwipperBigCards from "../../components/SwipperBigCards/SwipperBigCards";
+import { productsRange } from "../../data/data";
 
 function Home() {
   return (
     <main>
       <SwipperBigCards />
-      <MultiSlideSwiper/>
+      <Categories ranges={productsRange} />
     </main>
   );
 }

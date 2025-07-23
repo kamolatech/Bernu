@@ -104,7 +104,7 @@ const SwipperBigCards = () => {
           {slides.map((slide, index) => (
             <div
               key={slide.id}
-              className={`w-full h-full flex-shrink-0 relative ${slide.bgColor}`}
+              className={`w-full h-full flex-shrink-0 relative`}
             >
               <div className="container mx-auto h-full flex items-center px-8">
                 <div className="flex-1 z-10">
@@ -129,8 +129,6 @@ const SwipperBigCards = () => {
                   </div>
                 </div>
               </div>
-
-             
             </div>
           ))}
         </div>
