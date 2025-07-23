@@ -3,9 +3,6 @@ import { useEffect, lazy, Suspense } from "react";
 import Header from "../components/Header/Header";
 import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
 
-// const NavbarBottom = lazy(() =>
-//   import("../../components/NavbarBottom/NavbarBottom")
-// );
 const Footer = lazy(() => import("../components/Footer/Footer"));
 
 function MainLayout() {

@@ -8,7 +8,7 @@ import Navbar from "../Navbar/Navbar";
 
 function HeaderTop({ selectedLang, setSelectedLang }) {
   return (
-    <div className="header-top">
+    <div className="header-top bg-white">
       <div className="container mx-auto">
         <div className="flex items-center justify-between py-2">
           <Link to={"/"} className="img-wrapper w-full object-contain h-auto max-w-[105px] md:max-w-[116px] ">
