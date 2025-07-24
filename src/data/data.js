@@ -17,6 +17,8 @@ export const swipperBigCards = [
   { id: 3, imgUrl: SwipperImg2 },
 ];
 
+
+
 export const productsRange = [
   {
     id: 1,
